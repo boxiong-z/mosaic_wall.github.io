@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_da2232049618641706fd66cce1845576 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_da2232049618641706fd66cce1845576" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_da2232049618641706fd66cce1845576 = L.map(
+                "map_da2232049618641706fd66cce1845576",
+                {
+                    center: [37.5665, 126.978],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_4879c423bf5b312ba683d5009e5622a5 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_da2232049618641706fd66cce1845576);
+        
+    
+            var marker_ba95fc8061326897e0bbce6e71e8978b = L.marker(
+                [37.56, 126.9857],
+                {}
+            ).addTo(map_da2232049618641706fd66cce1845576);
+        
+    
+        var popup_b4118c0a7007b997b7beb8d183613d99 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_687128696928a0c93a904436a621b9cd = $(`<div id="html_687128696928a0c93a904436a621b9cd" style="width: 100.0%; height: 100.0%;">Myeongdong</div>`)[0];
+            popup_b4118c0a7007b997b7beb8d183613d99.setContent(html_687128696928a0c93a904436a621b9cd);
+        
+
+        marker_ba95fc8061326897e0bbce6e71e8978b.bindPopup(popup_b4118c0a7007b997b7beb8d183613d99)
+        ;
+
+        
+    
+    
+            var marker_5e78c958d4f261c8f79f1758a3860874 = L.marker(
+                [37.4979, 127.0276],
+                {}
+            ).addTo(map_da2232049618641706fd66cce1845576);
+        
+    
+        var popup_71cd21c9cafd1185caa9556db50dbc4b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_014b8b0fad3732f561aef39f88ff3733 = $(`<div id="html_014b8b0fad3732f561aef39f88ff3733" style="width: 100.0%; height: 100.0%;">Gangnam</div>`)[0];
+            popup_71cd21c9cafd1185caa9556db50dbc4b.setContent(html_014b8b0fad3732f561aef39f88ff3733);
+        
+
+        marker_5e78c958d4f261c8f79f1758a3860874.bindPopup(popup_71cd21c9cafd1185caa9556db50dbc4b)
+        ;
+
+        
+    
+    
+            var marker_db7f14940a7ff97d92a1f541546b2a10 = L.marker(
+                [37.5575, 126.9242],
+                {}
+            ).addTo(map_da2232049618641706fd66cce1845576);
+        
+    
+        var popup_a6a885f766200f361ac4e88f472b0570 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a0f0e22ee658b3e75b5d9fbc7f56f669 = $(`<div id="html_a0f0e22ee658b3e75b5d9fbc7f56f669" style="width: 100.0%; height: 100.0%;">Hongdae</div>`)[0];
+            popup_a6a885f766200f361ac4e88f472b0570.setContent(html_a0f0e22ee658b3e75b5d9fbc7f56f669);
+        
+
+        marker_db7f14940a7ff97d92a1f541546b2a10.bindPopup(popup_a6a885f766200f361ac4e88f472b0570)
+        ;
+
+        
+    
+    
+            var marker_d4048e6bf3090d540abc34c5c2a5100a = L.marker(
+                [37.5796, 126.977],
+                {}
+            ).addTo(map_da2232049618641706fd66cce1845576);
+        
+    
+        var popup_22683736761ac721436b85bde8b11f32 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e5e2a96b2742c0c130921ca4c4270f7c = $(`<div id="html_e5e2a96b2742c0c130921ca4c4270f7c" style="width: 100.0%; height: 100.0%;">Gyeongbokgung Palace</div>`)[0];
+            popup_22683736761ac721436b85bde8b11f32.setContent(html_e5e2a96b2742c0c130921ca4c4270f7c);
+        
+
+        marker_d4048e6bf3090d540abc34c5c2a5100a.bindPopup(popup_22683736761ac721436b85bde8b11f32)
+        ;
+
+        
+    
+    
+            var marker_f01ceda2aeae5aba20e9ee772b2cc987 = L.marker(
+                [37.5744, 126.9816],
+                {}
+            ).addTo(map_da2232049618641706fd66cce1845576);
+        
+    
+        var popup_3f02fc60236f367df4eedb373f00ce4a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9dde926ec541cfb02e70c252d4833395 = $(`<div id="html_9dde926ec541cfb02e70c252d4833395" style="width: 100.0%; height: 100.0%;">Insadong</div>`)[0];
+            popup_3f02fc60236f367df4eedb373f00ce4a.setContent(html_9dde926ec541cfb02e70c252d4833395);
+        
+
+        marker_f01ceda2aeae5aba20e9ee772b2cc987.bindPopup(popup_3f02fc60236f367df4eedb373f00ce4a)
+        ;
+
+        
+    
+    
+            var marker_ee9e916acb319f521f9bccae500f2d29 = L.marker(
+                [37.5345, 126.9946],
+                {}
+            ).addTo(map_da2232049618641706fd66cce1845576);
+        
+    
+        var popup_6e297f1a11d0ba16bd417891d8add3b8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b31b6ccce638c6bdde2dd4292f8e85a2 = $(`<div id="html_b31b6ccce638c6bdde2dd4292f8e85a2" style="width: 100.0%; height: 100.0%;">Itaewon</div>`)[0];
+            popup_6e297f1a11d0ba16bd417891d8add3b8.setContent(html_b31b6ccce638c6bdde2dd4292f8e85a2);
+        
+
+        marker_ee9e916acb319f521f9bccae500f2d29.bindPopup(popup_6e297f1a11d0ba16bd417891d8add3b8)
+        ;
+
+        
+    
+    
+            var marker_4ac363e55898260d1c13f2f4574767db = L.marker(
+                [37.5512, 126.988],
+                {}
+            ).addTo(map_da2232049618641706fd66cce1845576);
+        
+    
+        var popup_395bef15255d43756d64670208a7f8ed = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fa8a7972b73f7a51ddbcd17ac8d543c4 = $(`<div id="html_fa8a7972b73f7a51ddbcd17ac8d543c4" style="width: 100.0%; height: 100.0%;">N Seoul Tower</div>`)[0];
+            popup_395bef15255d43756d64670208a7f8ed.setContent(html_fa8a7972b73f7a51ddbcd17ac8d543c4);
+        
+
+        marker_4ac363e55898260d1c13f2f4574767db.bindPopup(popup_395bef15255d43756d64670208a7f8ed)
+        ;
+
+        
+    
+    
+            var marker_2fd1b6000da3995676ef26bf9069ce8d = L.marker(
+                [37.5826, 126.983],
+                {}
+            ).addTo(map_da2232049618641706fd66cce1845576);
+        
+    
+        var popup_c95d9f1bb425be0cab087f1918df6bb2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e7653906e14296ba9c8419f472f040b7 = $(`<div id="html_e7653906e14296ba9c8419f472f040b7" style="width: 100.0%; height: 100.0%;">Bukchon Hanok Village</div>`)[0];
+            popup_c95d9f1bb425be0cab087f1918df6bb2.setContent(html_e7653906e14296ba9c8419f472f040b7);
+        
+
+        marker_2fd1b6000da3995676ef26bf9069ce8d.bindPopup(popup_c95d9f1bb425be0cab087f1918df6bb2)
+        ;
+
+        
+    
+    
+            var marker_877c6a492f9529ad4443ede573aba256 = L.marker(
+                [37.584, 126.9854],
+                {}
+            ).addTo(map_da2232049618641706fd66cce1845576);
+        
+    
+        var popup_24f15b4301a0c13929557df229b33052 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a6615f8c2603a17329da5ed10ba343e6 = $(`<div id="html_a6615f8c2603a17329da5ed10ba343e6" style="width: 100.0%; height: 100.0%;">Samcheongdong</div>`)[0];
+            popup_24f15b4301a0c13929557df229b33052.setContent(html_a6615f8c2603a17329da5ed10ba343e6);
+        
+
+        marker_877c6a492f9529ad4443ede573aba256.bindPopup(popup_24f15b4301a0c13929557df229b33052)
+        ;
+
+        
+    
+</script>
+</html>
